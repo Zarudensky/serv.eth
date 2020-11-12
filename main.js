@@ -8,8 +8,7 @@ btnCloseMenu.addEventListener('click', onBtnCloseMenu);
 headerContainer.addEventListener('click', onBtnCloseMenu);
 
 
-function onBtnOpenMenu(e) {
-  e.preventDefault();
+function onBtnOpenMenu() {
   openMenu();
 }
 
@@ -17,8 +16,7 @@ function openMenu() {
   headerContainer.classList.add('open');
 }
 
-function onBtnCloseMenu(e) {
-  e.preventDefault();
+function onBtnCloseMenu() {
   closeMenu();
 }
 
